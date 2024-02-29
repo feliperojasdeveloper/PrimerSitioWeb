@@ -1,0 +1,57 @@
+.fondo {
+    background-color: aquamarine;
+}
+
+p {
+    font-size: 1em;
+    color: blueviolet;
+}
+
+p.miTexto {
+    font-size: 45px;
+    color: blue;
+}
+
+#tituloPrincipal {
+    width: 60vw;
+    margin: auto;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.presentacion {
+    font-size: 2.5em
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+}
+
+.cards {
+    border: 2px solid black;
+    width: fit-content;
+    border-radius: 10%;
+    padding: 1em 1em 1em 1em;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.cards:hover {
+    background-color: blue;
+}
+
+#cards-container {
+    width: 85vw;
+    margin: auto;
+    padding: 2em;
+    border: 2px solid rgb(192, 182, 182);
+    border-radius: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}   
